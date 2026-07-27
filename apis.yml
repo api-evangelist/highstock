@@ -1,7 +1,19 @@
 aid: highstock
 name: Highstock
-description: Highstock is a company surfaced as a portfolio company of a16z, greylock and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Highstock is a private, AI-native wholesale marketplace that connects consumer
+  brands holding excess or unsold inventory with a vetted network of global
+  business buyers. Focused initially on beauty and personal care, the platform
+  lets brands convert surplus stock into cash while protecting brand value and
+  channel privacy, and gives buyers access to authentic inventory directly from
+  brands at exclusive pricing, with centralized order management and flexible
+  payment terms. The company reports 50+ beauty and personal care brands, 100+
+  wholesale buyers, $100M+ in listed inventory, and more than 1M pounds of
+  product diverted from landfill, with offices in New York (US) and Gurgaon
+  (India). Highstock does not currently publish a public API or developer
+  program; this profile captures its public web identity and domain-security
+  posture. Added to the API Evangelist network as a portfolio lead for
+  enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/highstock/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +22,32 @@ x-backed-by:
 - greylock
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://highstock-us.s3.us-east-1.amazonaws.com/H+logo+square.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Marketplace
+- Wholesale
+- Inventory
+- Ecommerce
+- Retail
+- Beauty
+- B2B
+- Artificial Intelligence
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +55,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/highstock-domain-security.yml
 - type: Website
   url: https://www.highstock.com/
+- type: Blog
+  url: https://www.highstock.com/blog
+- type: Support
+  url: https://www.highstock.com/contact-us
+- type: SignUp
+  url: https://www.highstock.com/apply
+- type: TermsOfService
+  url: https://www.highstock.com/terms
+- type: PrivacyPolicy
+  url: https://www.highstock.com/privacy
+- type: Careers
+  url: https://www.highstock.com/careers
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
